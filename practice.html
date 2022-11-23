@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            padding: 0;
+            margin: 0;
+            background: yellow;
+        }
+        h2{
+            font-size: 36px;
+            text-align: center;
+        }
+        h3{
+            font-size: 30px;
+            text-align: center;
+        }
+        p{
+            font-size: 20px;
+        }
+        .list-unsyled{
+            text-decoration: none;
+            list-style-type: none;
+        }
+        header{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            background: #aaa;     
+        }
+        .logo{
+            padding: 13px 0 10px 0;
+        }
+        .menu-list{
+            display: flex;
+        }
+        .menu-list li a{
+            color: aliceblue;
+            display: block;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        .menu-list li a:hover{
+            color: black;
+            background: aliceblue;
+        }
+        .banner{
+            width: 100%;
+        }
+        .banner img{
+            width: 100%;
+        }
+        .about{
+            text-align: center;
+        }
+        .products{
+            max-width: 960px;
+            display: flex;
+            justify-content: center;
+            margin: 30px auto;
+        }
+        .products-box{
+            margin: 0 10px 0 10px;
+        }
+        .products img{
+            width: 300px;
+        }
+        .services{
+            display: flex;
+        }
+        .services-pic{
+            width: 100%;
+            object-fit: contain;
+        }
+        .services-text{
+            background: #aaa;
+            padding-left: 20px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .detail{
+            max-width: 960px;
+            display: flex;
+            margin: 20px auto;
+            justify-content: center;
+        }
+        .detail-box{
+            width: 240px;
+            margin: 0 00px 0 10px;
+        }
+        .detail img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+
+    <header>
+        <div class="logo">
+            <img src="https://picsum.photos/100/50?random=1" alt="">
+        </div>
+        <nav>
+            <div class="menu">
+                <ul class="menu-list">
+                    <li class="list-unsyled"><a href="">Home</a></li>
+                    <li class="list-unsyled"><a href="">Product</a></li>
+                    <li class="list-unsyled"><a href="">Conact</a></li>
+                    <li class="list-unsyled"><a href="">Conact</a></li>
+                    <li class="list-unsyled"><a href="">Conact</a></li>
+                    <li class="list-unsyled"><a href="">Conact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="banner">
+        <img src="https://picsum.photos/400/200?random=2" alt="">
+    </div>
+    
+
+    <div class="about">
+        <h2>title</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis voluptates odio distinctio illum tempora eos dicta et ea architecto neque.  </p>
+    </div>
+
+    <div class="products">
+        <div class="products-box">
+            <img src="https://picsum.photos/500/400?random=3" alt="">
+            <h3>title</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione obcaecati ipsum nesciunt ea laborum asperiores consequuntur amet repellendus qui at enim quos facilis, officia quod, doloribus sequi dolor optio porro.</p>
+        </div>
+        <div class="products-box">
+            <img src="https://picsum.photos/500/400?random=4" alt="">
+            <h3>title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores labore excepturi porro omnis veritatis inventore fugit quia dolorum. Corrupti obcaecati quisquam eaque fugit consequuntur? Quasi sunt hic reprehenderit ea cum, quod inventore corporis vitae molestias fugiat? </p>
+        </div>
+        <div class="products-box">
+            <img src="https://picsum.photos/500/400?random=5" alt="">
+            <h3>title</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio iste reprehenderit suscipit perspiciatis, explicabo ratione eaque quaerat sed dignissimos totam adipisci laudantium ducimus assumenda distinctio, culpa porro dolores dolorum ipsam beatae minima aliquid voluptatem, nisi molestiae cumque! Nam itaque sequi, ullam amet totam velit sed, debitis reprehenderit illum animi similique!</p>
+        </div>
+    </div>
+
+    <div class="services">
+        <div class="services-pic">
+            <img src="https://picsum.photos/500/400?random=6" alt="">
+        </div>
+        <div class="services-text">
+            <h3>title</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit ea esse facilis itaque dolor fugiat fugit assumenda voluptatum amet laudantium.</p>
+        </div>
+        <div class="services-pic">
+            <img src="https://picsum.photos/500/400?random=8" alt="">
+        </div>
+        <div class="services-text">
+            <h3>title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ad officiis voluptatem dolores quidem cumque excepturi quo sint, reiciendis laboriosam dolorem facere magni eveniet tempore culpa perferendis aliquam blanditiis adipisci at, quae quaerat voluptas dignissimos ut a? Suscipit, dignissimos consequatur.</p>
+        </div>
+    </div>
+
+    <div class="detail">
+        <div class="detail-box">
+            <img src="https://picsum.photos/500/400?random=9" alt="">
+            <h3>title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sapiente ex eius deserunt mollitia iste doloremque esse nostrum temporibus facilis sequi voluptates, at impedit unde. Debitis nobis rerum aut magni dolore incidunt, quae eos vitae perferendis omnis delectus vel, enim animi ducimus, architecto obcaecati. Assumenda distinctio reprehenderit dicta eos tenetur.</p>
+        </div>
+        <div class="detail-box">
+            <img src="https://picsum.photos/500/400?random=10" alt="">
+            <h3>title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vero iusto quia sapiente itaque aliquid rem perferendis deleniti quaerat tempore?</p>
+        </div>
+        <div class="detail-box">
+            <img src="https://picsum.photos/500/400?random=11" alt="">
+            <h3>title</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla odio illo asperiores, odit tempora enim, omnis ad velit totam vero nam laudantium, dolorum corporis culpa eaque? Quos dicta cumque quibusdam, vero voluptates, et quaerat mollitia commodi nesciunt voluptas, quam consequatur ex facere hic ullam. Facere vero voluptatum odio at tempore architecto quam voluptates ea.</p>
+        </div>
+        <div class="detail-box">
+            <img src="https://picsum.photos/500/400?random=12" alt="">
+            <h3>title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et veniam, expedita veritatis inventore magni, quasi tenetur distinctio odio reiciendis praesentium necessitatibus eos iusto eaque cumque porro voluptatibus at consequatur! Autem.</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy EJ2022
+    </footer>
+</body>
+</html>
